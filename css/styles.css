@@ -1,0 +1,220 @@
+:root {
+  --background-color: #ffffff;
+  --theme-color: #2196f3;
+  --tittle-text-color: #212121;
+  --text-primery: #757575;
+
+  --primery-font: 'Roboto';
+  --secondary-font: 'Raleway';
+}
+
+body {
+  font-family: var(--primery-font);
+  background-color: var(--background-color);
+  color: var(--text-primery);
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  height: 80px;
+  width: 1170px;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+address {
+  font-style: normal;
+}
+
+/* ======== header styles starts here ======= */
+.site-nav-link {
+  font-family: var(--tittle-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--tittle-text-color);
+  text-decoration: none;
+}
+.site-nav-link:hover,
+.site-nav-link:focus {
+  color: var(--theme-color);
+}
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--tittle-text-color);
+  text-decoration: none;
+}
+.web {
+  color: var(--theme-color);
+}
+.linkbox {
+  font-family: var(--text-primery);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--text-primery);
+  text-decoration: none;
+}
+.linkbox-link {
+  font-family: var(--tittle-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--text-primery);
+}
+.linkbox-link:hover,
+.linkbox-link:focus {
+  color: var(--theme-color);
+}
+.section-order {
+  background-color: var(--tittle-text-color);
+}
+.section-order-hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  /* or 136% */
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.button-order {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9;
+  /* identical to box height, or 187% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: var(--theme-color);
+  color: #ffffff;
+}
+.section-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.section-text {
+  font-size: 14px;
+  line-height: 1.7;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.section-title-aboutus {
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.our-team {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.profession {
+  font-size: 16px;
+  line-height: 1.2;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.nav-button {
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1.6;
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.nav-button:hover,
+.nav-button:focus {
+  color: var(--theme-color);
+}
+
+.name-projects {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.project {
+  font-size: 16px;
+  line-height: 1.9;
+  /* identical to box height, or 187% */
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.footer {
+  background-color: var(--tittle-text-color);
+}
+.logo-footer {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: var(--background-color);
+}
+.web-footer {
+  color: var(--theme-color);
+}
+.adress-link {
+  font-size: 14px;
+  line-height: 1.7;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: var(--background-color);
+}
+
+.contacts-footer {
+  font-size: 14px;
+  line-height: 1.7;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.contacts-footer-link {
+  color: rgba(255, 255, 255, 0.6);
+}
