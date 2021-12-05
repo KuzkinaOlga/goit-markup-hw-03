@@ -25,10 +25,13 @@ html {
 .container {
   margin-left: auto;
   margin-right: auto;
-  height: 80px;
   width: 1170px;
+  outline: 2px solid khaki;
 }
-
+h1, h2, h3, h4, h5, h6, p, ul{
+  margin-top: 0;
+  margin-bottom: 0;
+}
 ul,
 ol {
   list-style: none;
@@ -90,24 +93,28 @@ address {
 }
 .section-order {
   background-color: var(--tittle-text-color);
+  width: 1600px;
+  padding: 200px 452px 280px;
+  margin-bottom: 30px;
+  text-align: center;
 }
 .section-order-hero {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
-  /* or 136% */
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
 }
 .button-order {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
   cursor: pointer;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.9;
-  /* identical to box height, or 187% */
-
   display: flex;
   align-items: center;
   text-align: center;
@@ -120,6 +127,7 @@ address {
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.03em;
+  margin-bottom: 10px;
   text-transform: uppercase;
   color: #212121;
 }
@@ -137,6 +145,7 @@ address {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
   color: #212121;
 }
 .our-team {
@@ -157,17 +166,22 @@ address {
   color: #757575;
 }
 .nav-button {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 6px 22px;
+  min-width: 73px;
   cursor: pointer;
   font-size: 16px;
   line-height: 1.6;
-  /* identical to box height, or 162% */
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  background-color: #F5F4FA;
 }
 .nav-button:hover,
 .nav-button:focus {
-  color: var(--theme-color);
+  color: var(--background-color);
+  background-color: var(--theme-color);
 }
 
 .name-projects {
