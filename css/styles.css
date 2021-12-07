@@ -25,7 +25,7 @@ html {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1230px;
+  width: 1200px;
   outline: 2px solid #f00;
   padding-left: 15px;
   padding-right: 15px;
@@ -33,6 +33,7 @@ html {
 h1, h2, h3, h4, h5, h6, p, ul{
   margin-top: 0;
   margin-bottom: 0;
+  padding: 0;
 }
 ul,
 ol {
@@ -125,8 +126,9 @@ address {
   text-align: center;
 }
 .section-order-hero {
+  width: 696px;
   margin-bottom: 30px;
-  font-weight: 1600px;
+  font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
   letter-spacing: 0.06em;
@@ -134,16 +136,12 @@ address {
   color: #ffffff;
 }
 .button-order {
-  display: inline-block;
   border-radius: 4px;
   padding: 10px 32px;
-  min-width: 200px;
   cursor: pointer;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.9;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.06em;
   background-color: var(--theme-color);
   color: #ffffff;
@@ -153,8 +151,7 @@ address {
 .container > .articles{
   display: flex;
   flex-wrap: wrap;
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
  
 }
 .articles > .item{
@@ -184,10 +181,11 @@ address {
 .aboutus{
   display: flex;
   align-items: center;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .list-aboutus{
   display: flex;
-  margin-bottom: 94px;
 }
 .list-aboutus > .item:not(:last-child){
   margin-right: 30px;
@@ -205,10 +203,11 @@ address {
 .team-list{
   display: flex;
   align-items: center;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .team-names-list{
   display: flex;
-  margin-bottom: 94px;
 }
 .team-names-list > .item:not(:last-child){
   margin-right: 30px;
@@ -225,7 +224,6 @@ address {
 .profession {
   font-size: 16px;
   line-height: 1.2;
-  /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
