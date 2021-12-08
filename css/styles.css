@@ -237,13 +237,12 @@ address {
 
 .buttons {
   display: flex;
-  align-items: center;
 }
 .button-list {
   display: flex;
-  align-items: center;
 }
 .nav-button {
+  margin-left: 93px;
   border-radius: 4px;
   padding: 6px 22px;
   min-width: 73px;
@@ -255,6 +254,9 @@ address {
   background-color: #f5f4fa;
   color: #212121;
 }
+.site-nav .item:not(:last-child) {
+  margin-right: 8px;
+
 .nav-button:hover,
 .nav-button:focus {
   color: var(--background-color);
