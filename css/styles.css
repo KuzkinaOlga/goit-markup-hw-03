@@ -244,18 +244,16 @@ address {
   align-items: center;
 }
 .nav-button {
-  display: inline-block;
   border-radius: 4px;
   padding: 6px 22px;
   min-width: 73px;
   cursor: pointer;
   font-size: 16px;
   line-height: 1.6;
-  text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
-  color: #212121;
   background-color: #f5f4fa;
+  color: #212121;
 }
 .nav-button:hover,
 .nav-button:focus {
