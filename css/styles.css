@@ -237,7 +237,8 @@ address {
 
 .buttons {
   display: flex;
-  align-items: center;
+  justify-content: center;
+  margin-top: 94px;
 }
 .button-list {
   display: flex;
@@ -311,8 +312,8 @@ address {
   align-items: center;
   padding-top: 60px;
   padding-bottom: 60px;
-  padding-left: 60px;
 }
+
 .logo-footer {
   font-family: Raleway;
   font-weight: bold;
