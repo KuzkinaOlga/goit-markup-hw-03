@@ -59,7 +59,7 @@ address {
 .main-nav {
   display: flex;
   align-items: center;
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 .site-nav {
   display: flex;
@@ -107,6 +107,8 @@ address {
   letter-spacing: 0.02em;
   color: var(--text-primery);
   text-decoration: none;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .linkbox .item + .item {
   margin-left: 50px;
@@ -131,10 +133,13 @@ address {
 .section-hero {
   background-color: var(--tittle-text-color);
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .section-order-hero {
   width: 696px;
   margin-bottom: 30px;
+  margin: 0 auto;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -155,11 +160,12 @@ address {
 }
 /*============section articles==========*/
 
-.container > .articles {
+.container-articles {
+  padding-top: 94px;
+}
+.container-articles > .articles {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 .articles > .item {
   width: 270px;
@@ -207,9 +213,12 @@ address {
 }
 /*=========section our team======*/
 .team-list {
-  display: flex;
   align-items: center;
   padding-bottom: 94px;
+}
+.team {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .team-names-list {
   display: flex;
@@ -242,6 +251,7 @@ address {
 }
 .button-list {
   display: flex;
+  justify-content: center;
 }
 .nav-button {
   margin-left: 8px;
@@ -308,14 +318,16 @@ address {
 
 .footer {
   background-color: var(--tittle-text-color);
-}
-.footer-list {
-  align-items: center;
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.footer-list {
+  align-items: center;
+}
 
 .logo-footer {
+  display: flex;
+  margin-bottom: 30px;
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
@@ -327,6 +339,7 @@ address {
   color: var(--theme-color);
 }
 .adress-link {
+  margin-bottom: 9px;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -341,4 +354,7 @@ address {
 }
 .contacts-footer-link {
   color: rgba(255, 255, 255, 0.6);
+}
+.contacts-footer > .item:not(:last-child) {
+  margin-bottom: 9px;
 }
