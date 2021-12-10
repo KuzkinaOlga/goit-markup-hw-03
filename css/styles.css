@@ -191,9 +191,9 @@ address {
 
 /*=========section about us=======*/
 
-.aboutus {
-  display: flex;
+.section-aboutus {
   align-items: center;
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 .list-aboutus {
